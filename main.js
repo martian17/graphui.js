@@ -29,7 +29,8 @@ class Graph_Node extends ELEM{
 
 
 const main = function(){
-    let GN = body.add(new Graph_Node());
-    
+    let gn = body.add(new Graph_Node());
+    gn.left.add();
+    gn.right.add();
 }
 
